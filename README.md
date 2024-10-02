@@ -39,5 +39,12 @@ Open a new window to LaunchPad. From here, click on Jupyter Notebook as below:
 
 <img src="img/06_jupyter.jpg" width="900"/>
 
+Here you can see a folder called `hack`. This is where you will keep all your workings. There is a starter Notebook in here to download the data. 
+
+<img src="img/07_notebook.png" width="600"/>
+
+Duplicate or rename this Notebook and you can start coding!
+
+<img src="img/08_duplicate.png" width="600"/>
 
 
