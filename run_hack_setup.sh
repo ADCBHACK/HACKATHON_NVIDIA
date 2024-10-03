@@ -2,7 +2,9 @@
 
 mkdir -p $PWD/hack
 
-curl -L "https://raw.githubusercontent.com/ADCBHACK/HACKATHON_NVIDIA/refs/heads/main/CV%20Match/Starter_Notebook.ipynb" -o $PWD/hack/Starter_Notebook.ipynb
+curl -L "https://raw.githubusercontent.com/ADCBHACK/HACKATHON_NVIDIA/refs/heads/main/CV%20Match/CV_Match_Starter.ipynb" -o $PWD/hack/CV_Match_Starter.ipynb
+curl -L "https://raw.githubusercontent.com/ADCBHACK/HACKATHON_NVIDIA/refs/heads/main/Real%20Estate/Real_Estate_Starter.ipynb" -o $PWD/hack/Real_Estate_Starter.ipynb
+curl -L "https://raw.githubusercontent.com/ADCBHACK/HACKATHON_NVIDIA/refs/heads/main/Stock%20Market/Stock_Market_Starter.ipynb" -o $PWD/hack/Stock_Market_Starter.ipynb
 
 docker stop $(docker ps -a -q)
 
